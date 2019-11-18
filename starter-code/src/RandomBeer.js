@@ -25,7 +25,13 @@ state ={
     render() {
         return (
             <div>
+                 <li>
+                    
+                {this.state.allRandom.name}
                 
+                 <img src = {this.state.allRandom.image_url} alt="askldfnasdf"/>
+                  {this.state.allRandom.description}
+                 </li>
                 Random
                 
             </div>
